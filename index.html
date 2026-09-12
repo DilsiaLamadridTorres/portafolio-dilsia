@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portafolio profesional de Dilsia Lamadrid, Full Stack Developer.">
+
+    <title>Dilsia Lamadrid | Full Stack Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- ========================================
+         SYSTEM BOOT / INTRO
+    ========================================= -->
+
+    <section class="boot-screen" id="bootScreen">
+
+        <div class="boot-container">
+
+            <div class="boot-logo">
+                <span>&lt;</span>DILSIA.DEV<span>/&gt;</span>
+            </div>
+
+            <div class="terminal-lines">
+
+                <p class="boot-line">
+                    <span class="prompt">&gt;</span>
+                    initializing portfolio...
+                </p>
+
+                <p class="boot-line hidden">
+                    <span class="success">✓</span>
+                    Loading developer profile
+                </p>
+
+                <p class="boot-line hidden">
+                    <span class="success">✓</span>
+                    Loading projects
+                </p>
+
+                <p class="boot-line hidden">
+                    <span class="success">✓</span>
+                    Loading tech stack
+                </p>
+
+                <p class="boot-line hidden system-ready">
+                    <span class="prompt">&gt;</span>
+                    SYSTEM READY.
+                </p>
+
+            </div>
+
+            <div class="boot-progress">
+                <div class="boot-progress-bar"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================
+         PARTICLES BACKGROUND
+    ========================================= -->
+
+    <canvas id="particlesCanvas"></canvas>
+
+
+    <!-- ========================================
+         NAVIGATION
+    ========================================= -->
+
+    <header class="navbar" id="navbar">
+
+        <a href="#hero" class="nav-logo">
+            &lt;DL<span>/&gt;</span>
+        </a>
+
+        <nav class="nav-menu" id="navMenu">
+
+            <a href="#about">Sobre mí</a>
+            <a href="#process">Proceso</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#stack">Stack</a>
+            <a href="#contact">Contacto</a>
+
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+
+
+    <!-- ========================================
+         MAIN CONTENT
+    ========================================= -->
+
+    <main>
+
+
+        <!-- ========================================
+             HERO
+        ========================================= -->
+
+        <section class="hero section" id="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-code reveal">
+
+                    <span class="code-keyword">const</span>
+
+                    <span class="code-variable">developer</span>
+
+                    <span>=</span>
+
+                    <span>{</span>
+
+                    <br>
+
+                    <span class="code-indent">
+                        name:
+                        <span class="code-string">"Dilsia"</span>,
+                    </span>
+
+                    <br>
+
+                    <span class="code-indent">
+                        role:
+                        <span class="code-string">
+                            "Full Stack Developer"
+                        </span>,
+                    </span>
+
+                    <br>
+
+                    <span class="code-indent">
+                        passion:
+                        <span class="code-string">
+                            "Building solutions"
+                        </span>
+                    </span>
+
+                    <br>
+
+                    <span>};</span>
+
+                </div>
+
+
+                <div class="hero-text">
+
+                    <p class="hero-eyebrow reveal">
+                        HELLO, WORLD.
+                    </p>
+
+                    <h1 class="reveal">
+
+                        I'M
+
+                        <span class="hero-name">
+                            DILSIA
+                        </span>
+
+                        <span class="hero-name outline-text">
+                            LAMADRID
+                        </span>
+
+                    </h1>
+
+                    <h2 class="reveal">
+                        FULL STACK DEVELOPER
+                    </h2>
+
+                    <p class="hero-description reveal">
+                        Transformo curiosidad en código
+                        y código en experiencias digitales.
+                    </p>
+
+                    <div class="hero-buttons reveal">
+
+    <a href="#projects" class="btn btn-primary">
+        Explorar proyectos
+        <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+
+    <a
+        href="assets/CV-Dilsia-Lamadrid.pdf"
+        download="CV-Dilsia-Lamadrid.pdf"
+        class="btn btn-secondary"
+    >
+        Descargar CV
+        <i class="fa-solid fa-download"></i>
+    </a>
+
+
+    <a href="#contact" class="btn btn-secondary">
+        Contactarme
+    </a>
+
+</div>
+
+
+                   
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll-indicator">
+
+                <span>SCROLL TO EXPLORE</span>
+
+                <div class="scroll-line"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             THE QUESTION
+        ========================================= -->
+
+        <section class="question section">
+
+            <div class="question-container">
+
+                <p class="section-number">01 / THE BEGINNING</p>
+
+                <p class="question-intro reveal">
+                    Todo comenzó con una pregunta...
+                </p>
+
+                <h2 class="big-question reveal">
+                    ¿CÓMO FUNCIONA
+                    <span>ESTO?</span>
+                </h2>
+
+
+                <div class="question-list">
+
+                    <p class="reveal">
+                        ¿Qué ocurre detrás de la pantalla?
+                    </p>
+
+                    <p class="reveal">
+                        ¿Qué piezas hacen que todo funcione?
+                    </p>
+
+                    <p class="reveal">
+                        ¿Cómo puede el código convertirse
+                        en una experiencia?
+                    </p>
+
+                </div>
+
+
+                <p class="curiosity-text reveal">
+                    La curiosidad se convirtió en código.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             ABOUT
+        ========================================= -->
+
+        <section class="about section" id="about">
+
+            <div class="section-header">
+
+                <p class="section-number">
+                    02 / ABOUT ME
+                </p>
+
+                <h2>
+                    MÁS ALLÁ
+                    <span>DEL CÓDIGO.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-text reveal">
+
+                    <p>
+                        Mi curiosidad por la tecnología fue lo que me llevó
+                        a comenzar en el mundo de la programación. Siempre
+                        me llamó la atención cómo, a partir de líneas de código,
+                        es posible crear experiencias visuales sorprendentes
+                        con las que las personas pueden interactuar.
+                    </p>
+
+                    <p>
+                        Cada vez que utilizaba una aplicación, me preguntaba
+                        qué ocurría detrás de la pantalla: cómo funcionaba,
+                        qué piezas estaban conectadas y cuáles eran los
+                        engranajes que hacían posible que todo funcionara
+                        como una sola máquina.
+                    </p>
+
+                </div>
+
+
+                <div class="about-text reveal">
+
+                    <p>
+                        Esa curiosidad se convirtió en una pasión por construir
+                        aplicaciones web y comprender su funcionamiento de
+                        principio a fin.
+                    </p>
+
+                    <p>
+                        Disfruto especialmente el desarrollo Full Stack porque
+                        me permite trabajar tanto en el frontend como en el
+                        backend y ver cómo cada parte se conecta para transformar
+                        una idea en un producto funcional.
+                    </p>
+
+                    <p class="highlight-text">
+                        Siempre vi el desarrollo como una forma de hacer magia.
+                        Con Inteligencia Artificial, esa magia está alcanzando
+                        un nuevo nivel.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             DEVELOPMENT PIPELINE
+        ========================================= -->
+
+        <section class="process section" id="process">
+
+            <div class="section-header centered">
+
+                <p class="section-number">
+                    03 / DEVELOPMENT PIPELINE
+                </p>
+
+                <h2>
+                    ASÍ ES COMO
+                    <span>CONSTRUYO.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="pipeline">
+
+                <div class="pipeline-line"></div>
+
+
+                <article class="pipeline-step reveal">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <div class="step-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <h3>ANALIZAR</h3>
+
+                    <p>
+                        Entender el problema y descubrir
+                        qué necesita realmente la solución.
+                    </p>
+
+                </article>
+
+
+                <article class="pipeline-step reveal">
+
+                    <div class="step-number">
+                        02
+                    </div>
+
+                    <div class="step-icon">
+                        <i class="fa-solid fa-pen-ruler"></i>
+                    </div>
+
+                    <h3>DISEÑAR</h3>
+
+                    <p>
+                        Planear la estructura y pensar
+                        cómo funcionará cada parte.
+                    </p>
+
+                </article>
+
+
+                <article class="pipeline-step reveal">
+
+                    <div class="step-number">
+                        03
+                    </div>
+
+                    <div class="step-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <h3>DESARROLLAR</h3>
+
+                    <p>
+                        Convertir las ideas en código
+                        y construir la solución.
+                    </p>
+
+                </article>
+
+
+                <article class="pipeline-step reveal">
+
+                    <div class="step-number">
+                        04
+                    </div>
+
+                    <div class="step-icon">
+                        <i class="fa-solid fa-flask"></i>
+                    </div>
+
+                    <h3>PROBAR</h3>
+
+                    <p>
+                        Validar que cada parte funcione
+                        correctamente.
+                    </p>
+
+                </article>
+
+
+                <article class="pipeline-step reveal">
+
+                    <div class="step-number">
+                        05
+                    </div>
+
+                    <div class="step-icon">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+
+                    <h3>MEJORAR</h3>
+
+                    <p>
+                        Optimizar, aprender y seguir
+                        evolucionando la solución.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             PROJECT UNIVERSE
+        ========================================= -->
+
+        <section class="projects section" id="projects">
+
+            <div class="section-header">
+
+                <p class="section-number">
+                    04 / PROJECT UNIVERSE
+                </p>
+
+                <h2>
+                    IDEAS QUE SE
+                    <span>CONVIRTIERON EN CÓDIGO.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="project-universe">
+
+
+                <!-- =========================================
+             PROJECT 01 - TUCANCHA
+        ========================================== -->
+
+                <article class="project-card project-one reveal">
+
+                    <div class="project-orbit"></div>
+
+                    <div class="project-icon football">
+                        <i class="fa-solid fa-futbol"></i>
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            PROJECT_01
+                        </span>
+
+                        <h3>TuCancha</h3>
+
+                        <p>
+                            Aplicación web para la reserva y gestión
+                            de canchas deportivas de fútbol.
+                        </p>
+
+
+                        <div class="tech-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>SQL</span>
+                            <span>PostgreSQL</span>
+                            <span>Postman</span>
+
+                        </div>
+
+
+                        <!-- PROJECT LINKS -->
+
+                        <div class="project-links">
+
+                            <a href="https://dilsialamadridtorres.github.io/APP_TuCancha/" target="_blank"
+                                rel="noopener noreferrer" class="project-link project-demo">
+
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                                DEMO
+
+                            </a>
+
+
+                            <a href="https://github.com/DilsiaLamadridTorres/APP_TuCancha" target="_blank"
+                                rel="noopener noreferrer" class="project-link">
+
+                                <i class="fa-brands fa-github"></i>
+
+                                GITHUB
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =========================================
+             PROJECT 02 - CLINICA APP
+        ========================================== -->
+
+                <article class="project-card project-two reveal">
+
+                    <div class="project-orbit"></div>
+
+                    <div class="project-icon clinic">
+                        <i class="fa-solid fa-hospital"></i>
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            PROJECT_02 / BACKEND
+                        </span>
+
+                        <h3>Clínica App</h3>
+
+                        <p>
+                            Proyecto Backend desarrollado en equipo durante
+                            una hackathon para gestionar médicos, pacientes
+                            y citas.
+                        </p>
+
+
+                        <div class="tech-tags">
+
+                            <span>Java</span>
+                            <span>POO</span>
+                            <span>Collections</span>
+                            <span>CSV</span>
+
+                        </div>
+
+
+                        <!-- PROJECT LINKS -->
+
+                        <div class="project-links">
+
+                            <a href="https://github.com/Strikys12/hackaton2-clinicaappv2" target="_blank"
+                                rel="noopener noreferrer" class="project-link">
+
+                                <i class="fa-brands fa-github"></i>
+
+                                GITHUB
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =========================================
+             PROJECT 03 - TASK PLANNER
+        ========================================== -->
+
+                <article class="project-card project-three reveal">
+
+                    <div class="project-orbit"></div>
+
+                    <div class="project-icon tasks">
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            PROJECT_03
+                        </span>
+
+                        <h3>Task Planner</h3>
+
+                        <p>
+                            Aplicación web diseñada para gestionar,
+                            organizar y realizar seguimiento de tareas
+                            de manera sencilla y eficiente.
+                        </p>
+
+
+                        <div class="tech-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>SQL</span>
+                            <span>PostgreSQL</span>
+
+                        </div>
+
+
+                        <!-- PROJECT LINKS -->
+
+                        <div class="project-links">
+
+                            <a href="https://dilsialamadridtorres.github.io/Proyecto-App-Web-Planificador-Tareas/"
+                                target="_blank" rel="noopener noreferrer" class="project-link project-demo">
+
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                                DEMO
+
+                            </a>
+
+
+                            <a href="https://github.com/DilsiaLamadridTorres/Proyecto-App-Web-Planificador-Tareas"
+                                target="_blank" rel="noopener noreferrer" class="project-link">
+
+                                <i class="fa-brands fa-github"></i>
+
+                                GITHUB
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             TECH DNA
+        ========================================= -->
+
+        <section class="stack section" id="stack">
+
+            <div class="section-header centered">
+
+                <p class="section-number">
+                    05 / TECH DNA
+                </p>
+
+                <h2>
+                    MI UNIVERSO
+                    <span>TECNOLÓGICO.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="tech-dna">
+
+
+                <div class="dna-center">
+
+                    <div class="core">
+                        <span>DL</span>
+                    </div>
+
+                </div>
+
+
+                <div class="tech-node java">
+                    <i class="fa-brands fa-java"></i>
+                    <span>Java</span>
+                </div>
+
+                <div class="tech-node mongodb">
+                    <i class="fa-solid fa-leaf"></i>
+                    <span>MongoDB</span>
+                </div>
+
+
+                <div class="tech-node javascript">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+
+
+                <div class="tech-node html">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+
+
+                <div class="tech-node css">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+
+
+                <div class="tech-node database">
+                    <i class="fa-solid fa-database"></i>
+                    <span>SQL</span>
+                </div>
+
+
+                <div class="tech-node git">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+
+
+                <div class="tech-node github">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+
+
+                <div class="tech-node bootstrap">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <span>Bootstrap</span>
+                </div>
+
+
+                <div class="tech-node figma">
+                    <i class="fa-brands fa-figma"></i>
+                    <span>Figma</span>
+                </div>
+
+
+                <div class="tech-node ai">
+                    <i class="fa-solid fa-brain"></i>
+                    <span>AI</span>
+                </div>
+
+            </div>
+
+
+            <div class="stack-info">
+
+                <p>
+                    Una combinación de curiosidad, tecnología
+                    y aprendizaje constante.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             JOURNEY
+        ========================================= -->
+
+        <section class="journey section">
+
+            <div class="section-header">
+
+                <p class="section-number">
+                    06 / MY JOURNEY
+                </p>
+
+                <h2>
+                    CADA LÍNEA DE CÓDIGO
+                    <span>CUENTA UNA HISTORIA.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="journey-timeline">
+
+
+                <!-- INICIO -->
+
+                <article class="journey-item reveal">
+
+                    <div class="journey-dot"></div>
+
+                    <div class="journey-content">
+
+                        <span>2024 / START</span>
+
+                        <h3>Comienza el camino</h3>
+
+                        <p>
+                            Inicio mi formación tecnológica impulsada por una gran
+                            curiosidad: entender qué sucede detrás de las aplicaciones
+                            y cómo diferentes piezas trabajan juntas para crear
+                            experiencias digitales.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FORMACIÓN -->
+
+                <article class="journey-item reveal">
+
+                    <div class="journey-dot"></div>
+
+                    <div class="journey-content">
+
+                        <span>2024 — 2026 / BUILDING FOUNDATIONS</span>
+
+                        <h3>Construyendo las bases</h3>
+
+                        <p>
+                            Desarrollo conocimientos en tecnología y programación,
+                            descubriendo cómo las ideas pueden transformarse en
+                            soluciones digitales mediante código.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BOOTCAMP -->
+
+                <article class="journey-item reveal">
+
+                    <div class="journey-dot"></div>
+
+                    <div class="journey-content">
+
+                        <span>JUN 2026 / FULL STACK JAVA</span>
+
+                        <h3>El salto al desarrollo Full Stack</h3>
+
+                        <p>
+                            Inicio una formación intensiva en Desarrollo Full Stack Java,
+                            profundizando en frontend, backend, bases de datos y en la
+                            construcción de aplicaciones de principio a fin.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ACTUALIDAD -->
+
+                <article class="journey-item reveal">
+
+                    <div class="journey-dot active"></div>
+
+                    <div class="journey-content">
+
+                        <span>NOW / NEXT LEVEL</span>
+
+                        <h3>Construyendo soluciones y explorando el futuro</h3>
+
+                        <p>
+                            Actualmente construyo proyectos reales como TuCancha y
+                            Clínica App, mientras continúo fortaleciendo mi perfil
+                            Full Stack y explorando las posibilidades de la
+                            Inteligencia Artificial.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             THE LAB / TERMINAL
+        ========================================= -->
+
+        <section class="lab section" id="lab">
+
+            <div class="section-header centered">
+
+                <p class="section-number">
+                    07 / THE LAB
+                </p>
+
+                <h2>
+                    EXPLORA MI
+                    <span>TERMINAL.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="terminal">
+
+                <div class="terminal-header">
+
+                    <div class="terminal-buttons">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <p>
+                        dilsia@portfolio:~
+                    </p>
+
+                </div>
+
+
+                <div class="terminal-body" id="terminalOutput">
+
+                    <p>
+                        Welcome to Dilsia's interactive terminal.
+                    </p>
+
+                    <p>
+                        Type <span class="terminal-command">help</span>
+                        to see available commands.
+                    </p>
+
+                </div>
+
+
+                <form class="terminal-input-container" id="terminalForm">
+
+                    <span class="terminal-prompt">
+                        dilsia@portfolio:~$
+                    </span>
+
+                    <input type="text" id="terminalInput" autocomplete="off" placeholder="type a command...">
+
+                </form>
+
+            </div>
+
+
+            <div class="terminal-hint">
+
+                Try:
+
+                <span>help</span>
+
+                <span>about</span>
+
+                <span>skills</span>
+
+                <span>projects</span>
+
+                <span>contact</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             CONTACT
+        ========================================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="contact-container">
+
+                <p class="section-number">
+                    08 / CONTACT
+                </p>
+
+                <h2>
+                    READY TO BUILD
+                    <span>SOMETHING AMAZING?</span>
+                </h2>
+
+                <p class="contact-description">
+
+                    Si tienes una idea, un proyecto o simplemente quieres
+                    conectar, estaré encantada de hablar contigo.
+
+                </p>
+
+
+                <div class="contact-links">
+
+
+                    <a href="https://github.com/DilsiaLamadridTorres" target="_blank" rel="noopener noreferrer">
+
+                        <i class="fa-brands fa-github"></i>
+
+                        GitHub
+
+                    </a>
+
+
+                    <a href="https://www.linkedin.com/in/dilsia-lamadrid-torres-9a8859b7/" target="_blank"
+                        rel="noopener noreferrer">
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                        LinkedIn
+
+                    </a>
+
+
+                    <a href="mailto:lamadrid1992@live.com">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        Email
+
+                    </a>
+
+
+                    <a href="https://wa.me/573008759280" target="_blank" rel="noopener noreferrer">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                        WhatsApp
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
+
+    <footer class="footer">
+
+        <p>
+            Designed & Built by
+            <span>Dilsia Lamadrid</span>
+        </p>
+
+        <p>
+            © 2026
+        </p>
+
+    </footer>
+
+
+    <!-- ========================================
+         JAVASCRIPT
+    ========================================= -->
+
+    <script src="js/particles.js"></script>
+    <script src="js/terminal.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
